@@ -1,0 +1,403 @@
+
+.login{
+    justify-items: center;
+        width: 50%;
+        height: 55%;
+      background-image: url(./Rectangle\ 1319.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      opacity: 0.85;
+        backdrop-filter: blur(40px);
+        display: flex;
+        flex-direction: row;
+    
+        z-index: 9999999999999999999999999999999999999999999999999999999999999999;
+        /* border: 1px solid red; */
+     
+    
+    }
+    .main-modal{
+        height: 100vh;
+        width: 100%;
+     
+      backdrop-filter: blur(10px);
+        background-repeat: no-repeat;
+        background-size: cover;
+      ;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+      position: absolute;
+  
+      z-index: 9999999999999999999999999999999999999999999999999999999999999999;
+    display: none;
+    }
+    .jd3d{
+        height: 55vh;
+        width: 50%;
+      /* border: 1px solid red; */
+      display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .h22{
+        font-family: cinzel;
+        color: #ffffff;
+        font-weight: 200;
+        margin-bottom: 10px;
+    font-size: 2.45vw;
+    letter-spacing: 4px;
+    /* border: 1px solid red; */
+    
+    }
+    .form-login{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin-top: 70px; */
+        transform: translate(0%,20%);
+        /* border: 1px solid red; */
+    height: 100%;
+    }
+    .anchor-modal{
+         
+        margin-left: 20px;
+        text-decoration: none;
+        color: #ffffff;
+        font-family:lato;
+        font-size:1.1rem;
+        
+       
+        margin-top: 8px;
+    }
+    .jd3d img{
+       height: 90%;
+       width:150%;
+     justify-content: left;
+    margin-left: -55%;
+    margin-top:10%;
+        /* margin-top: 17px; */
+        /* border: 1px solid rgb(255, 69, 227); */
+        
+    }
+    ::placeholder{
+        color: #ffffff;
+    font-family: lato;
+    font-weight: 100;
+    
+    }
+    .FORM-CONTENT{
+        margin-top: 15PX;   
+    }
+    .form1{
+      
+        background-color: rgba(255, 255, 255, 0);
+        color: #ffffff;
+        /* width:10px; */
+        /* height: 34px; */
+      
+        justify-content: right;
+        border: 1px solid white;
+        margin-top: 23px;
+        border-radius: 3px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .row-login{
+        display: flex;
+        margin-top: 40px;    
+    }
+    .btn-login{
+      background-color:#C99B3C;
+      width: 30%;
+      height: 30px;
+      border-color: #C99B3C;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-radius: 3px;
+      border: none;
+      font-size:1.1rem;
+    
+    }
+    /*--card-detail-page--*/
+    .card-detail{
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center; */
+        align-items: center;
+        margin-top: 30px;
+        width: 100%;
+        height: 60vh;
+    }
+    .card-content{
+        border: 2px solid #DBB86e;
+        width: 30%;
+        height: 60vh;
+    justify-content: center;
+    margin-left: 10%;
+    
+    }
+    .card-content>img{
+        width: 96%;
+        height: 65vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    }
+    
+    .card-about{
+        font-family: lato;
+    height: 100%;
+        justify-content: center;
+        margin-left: 20px;
+    }
+    .about1{
+        font-size: 3rem;
+        margin-top: -5px;
+        color: rgb(0, 0, 0);
+    }
+    @media(max-width:1100px){
+        .anchor-modal{
+            font-size:1.6vw;
+        }
+        }
+            
+    @media(max-width:600px){
+        .main-modal{
+            display:none
+
+        }
+        .main-modal{
+            height: 0px;
+            width: 0px;
+            overflow:hidden;
+        }
+       #disk{display: none;
+    }
+
+    }
+@media (max-height:760px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 60%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+         margin-top:12.5%;
+  height: 100%;
+             
+         }
+}
+@media (max-height:690px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 65%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:20%;
+  height: 100%;
+     
+                
+            }
+}
+@media (max-height:665px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 67%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:25%;
+  height: 100%;
+     
+                
+            }
+}
+@media (max-height:620px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 75%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:33%;
+  height: 100%;
+     
+                
+            }
+}
+@media (max-height:560px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 83%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:40%;
+     
+  height: 100%;
+                
+            }
+}
+@media (max-height:540px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 88%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:45%;
+  height: 100%;
+     
+                
+            }
+}
+@media (max-height:430px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 92%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:50%;
+     height: 125%;
+                
+            }
+}
+@media (max-height:400px){
+    .login{
+        justify-items: center;
+            width: 50%;
+            height: 95%;
+          background-image: url(./Rectangle\ 1319.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          opacity: 0.85;
+            backdrop-filter: blur(40px);
+            display: flex;
+            flex-direction: row;
+        
+            /* border: 1px solid red; */
+         
+        
+        }
+        .jd3d img{
+        
+            margin-top:50%;
+     height: 125%;
+                
+            }
+}
+@media(max-width:1100px){
+    .jd3d img{
+        
+        margin-top:20%;
+ height: 90%;
+            
+        }
+}
+@media (max-width:860px){
+    .login{
+        width:70%;
+    }
+}
+@media (max-width:900px){
+    .login{
+        width:70%;
+    }
+}
+
